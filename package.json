@@ -4,6 +4,10 @@
   "description": "My portfolio",
   "private": true,
   "dependencies": {
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/lab": "^5.0.0-alpha.172",
+    "@mui/material": "^5.16.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -56,5 +60,4 @@
     "url": "https://github.com/sindhukrovvidi/sindhukrovvidi/issues"
   },
   "homepage": "https://sindhukrovvidi.github.io/"
-
 }
