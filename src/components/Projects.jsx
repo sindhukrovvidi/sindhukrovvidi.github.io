@@ -1,5 +1,5 @@
-import React from 'react'
-import { projects } from '../data/Projects'
+import React from 'react';
+import { projects } from '../data/Projects';
 
 const Projects = () => {
   return (
@@ -11,17 +11,15 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"> 
                 
-            {/* Grid Item */}
             {projects.map((project, index) => (
                 <div
                     key={index}
                     className="shadow-md shadow-[#040c16] group container rounded-md 
                             flex flex-col justify-between text-center items-center mx-auto py-2 px-4 overflow-auto"
                 >
-                    {/* Div for content */}
+                    
                     <div>
                         <h3 className="pt-3 text-2xl font-bold text-[#1e3751] ">
                             {project.name}
@@ -29,7 +27,7 @@ const Projects = () => {
                         <p className='text-[#6a7280]'>
                             {project.date}
                         </p>
-                        {/* Div for Tech Stack */}
+                        
                         <div className='pt-1 flex flex-wrap justify-center gap-0 items-center'>
                             {project.tech.map((tech)=>(
                                 <p className='text-xs text-[#1e3751] border-[#6a7280] border rounded-lg m-1 p-1 hover:bg-[#1e3751] hover:text-white'>{tech}</p>
@@ -40,9 +38,9 @@ const Projects = () => {
                         </p>
                     </div>
 
-                    {/* Div for buttons */}
+                    
                     <div className="flex text-center ">
-                        {/* eslint-disable-next-line */}
+                        
                         {project.source && (
                         <a href={project.source} target="_blank" rel="noreferrer">
                             <button
@@ -64,11 +62,10 @@ const Projects = () => {
                 </div>
             ))}
 
-
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

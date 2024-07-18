@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Logo from '../assets/Logo2.png'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
@@ -9,7 +8,7 @@ const Navbar = () => {
     
     return(
     <div className='z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1e3751]'>
-        <div className='h-50px w-50px rounded-md overflow-hidden'><img className='object-cover h-[100%] w-[100%]' src={Logo} alt="Logo" style={{ width: '50px' }}></img></div>
+        <div className='h-50px w-50px rounded-md overflow-hidden'><img className='object-cover h-[100%] w-[100%]' src={'/assets/logo.png'} alt="Logo" style={{ width: '50px' }}></img></div>
         {/* Menu */}
         <ul className='hidden md:flex'>
             <li>

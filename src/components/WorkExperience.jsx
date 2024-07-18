@@ -2,9 +2,6 @@ import React from "react";
 import { workExperience } from "../data/WorkExperience";
 
 function WorkExperience() {
-  const handleDemoUrl = (url) => {
-    window.open(url, "_blank");
-  };
 
   return (
     <>
