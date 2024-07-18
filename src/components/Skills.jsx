@@ -15,10 +15,10 @@ const Skills = () => {
             <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-4 text-center'>
               {skill.entries.map((eachSkill) => (
                 <div key={eachSkill.id} className='shadow-md hover:scale-105 duration-500 rounded-md overflow-hidden'>
-                  <a href={eachSkill.url}>
+                  {/* <a href={eachSkill.url}> */}
                     <img className='mt-4 w-16 mx-auto' src={eachSkill.img} alt={eachSkill.title} />
                     <p className='my-4 text-sm'>{eachSkill.title}</p>
-                  </a>
+                  {/* </a> */}
                 </div>
               ))}
             </div>

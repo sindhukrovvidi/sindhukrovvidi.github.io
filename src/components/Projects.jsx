@@ -9,7 +9,6 @@ const Projects = () => {
           <p className='text-4xl font-bold inline border-b-4 border-[#C3073F]'>
             Projects
           </p>
-          <p className='py-4'>Projects that I am proud of</p>
         </div>
 
         {/* container for projects */}
