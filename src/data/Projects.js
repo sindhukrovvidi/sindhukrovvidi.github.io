@@ -18,6 +18,14 @@ export const projects = [
     source: 'https://github.com/sindhukrovvidi/java-web-application',
   },
   {
+    id: 0,
+    name: 'AWS Cloud Infrastructure Project',
+    date: '2024',
+    tech: ['Python', 'HTML', 'Flask', 'Dash', 'Plotly', 'SQLAlchemy', 'SQLite'],
+    tagline:
+      'Automated provisioning of AWS services (EC2, VPC, S3, RDS, Cloudwatch, LoadBalancers, Firewall)  using CloudFormation templates. Deployed web applications on AWS using Gitlab CI/CD pipeline, increased system security using IAM policies',
+  },
+  {
     id: 3,
     name: 'Stack Overflow',
     date: '2024',
