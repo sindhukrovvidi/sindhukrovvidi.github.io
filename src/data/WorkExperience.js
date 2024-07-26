@@ -12,7 +12,7 @@ export const workExperience = [
         "Significantly improved product quality and reduced turnover time by effectively troubleshooting and resolving critical UI and backend issues within an agile framework"
     ],
         name: "Trimble Inc",
-        role: "Software Development Engineer Intern",
+        role: "Software Development Engineer",
         duration: "May 2023 - December 2023"
     },
     {
