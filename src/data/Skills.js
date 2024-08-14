@@ -26,11 +26,6 @@ export const skills = [
                 id: 6,
                 title: 'C#',
                 img: '/assets/csharp.png',
-            },
-            {
-                id: 7,
-                title: 'Go',
-                img: '/assets/go.png',
             }
         ]
     },
